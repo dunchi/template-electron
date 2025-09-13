@@ -1,0 +1,86 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+build/
+out/
+release/
+dist-electron/
+*.unpacked/
+
+# Electron specific
+.electron-builder.env
+*.exe
+*.dmg
+*.app
+*.AppImage
+*.blockmap
+latest*.yml
+builder-debug.yml
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of npm pack
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+.env.development
+.env.test
+.env.production
+
+# Mac files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux files
+*~
+.directory
+
+# 예전 코드 보관
+old/*
+
+# 참고용 템플릿
+vite_template/*
+to-remote/*
+ollama-js/*
+ollama-test/*
